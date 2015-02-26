@@ -1,0 +1,100 @@
+/* STANDARDS ELEMENTS */
+
+html, body {
+    background: #fefefe url('images/bg.gif');
+    color: #585858;
+    margin: 0px 0px 0px 0px;
+    font: 12px Trebuchet MS, Lucida Grande, Verdana, Arial, Helvetica, sans-serif;
+    text-align: left;
+
+}
+
+a {
+	color: #cd2b15;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #303030;
+	text-decoration: underline;
+}
+
+#main_wrap {
+    overflow: hidden;
+    position: relative;
+    margin: -1px auto;
+    width: 780px !important;
+    background: #ffffff;
+    border: #dcdcdc 1px solid; /*#cd2b15*/
+}
+
+#header {
+    padding: 0 0;
+    position: relative;
+    width: 780px;
+    height: 120px;
+    background: url('images/logo.png');
+}
+
+#menu {
+    height: 30px;
+    background: #efefef;
+	text-align: center;
+	margin: auto;
+	border-bottom: 1px solid #dcdcdc;
+}
+
+#menu li {
+    text-align: center;
+    width: 140px;
+    float: left;
+}
+
+#menu li a {
+	color: #454545;
+    width: 140px;
+    height: 30px;
+	font: bold 120% Arial;
+	display: block;
+	line-height: 21pt;
+}
+
+#menu li a:hover {
+	color: #303030;
+    width: 140px;
+    height: 30px !important;
+	background-color: #dedede;
+}
+
+#content {
+	width: 480px;
+    margin: 10px;
+}
+
+#footer {
+	width: 100%;
+	text-align: center;
+	font: bold 80% Arial;
+	padding: 5px;
+}
+
+#quotation {
+	background: #f4f5f7 url('images/quotation.png') top left no-repeat;
+	text-align: center;
+	padding: 10px 0 0 20px;
+	margin: 0 14px 25px 0;
+	width: 200px;
+	border: 1px dashed #dce5f7;
+}
+
+.headline {
+	font: 13pt Georgia, "Times New Roman", Times, serif;
+	color: #cd2b15;
+	padding: 10px 0 4px 0;
+}
+
+.headtitle {
+	font: 11pt Georgia, "Times New Roman", Times, serif;
+	color: #cd2b15;
+	padding: 10px 0 4px 0;
+}
